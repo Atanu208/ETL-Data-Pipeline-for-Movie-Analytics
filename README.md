@@ -39,10 +39,10 @@ The dataset contains movie information such as:
 
 Sample entry:  
 
-```csv
+csv
 "The Shining";"R";"Drama";1980;"June 13 1980 (United States)";8.4;927000.0;"Stanley Kubrick";"Stephen King";"Jack Nicholson";"United Kingdom";19000000;"46998772.0";"Warner Bros.";146.0
-🚀 Tech Stack
 
+🚀 Tech Stack
 Language: Python
 Database: MySQL
 Libraries: Pandas, SQLAlchemy, Logging
