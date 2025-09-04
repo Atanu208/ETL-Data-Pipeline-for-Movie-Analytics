@@ -1,0 +1,5 @@
+2025-09-04 10:55:58,394 - INFO - ETL Job Started
+2025-09-04 10:55:58,402 - INFO - Extracted 2 rows from CSV
+2025-09-04 10:55:58,408 - INFO - Data transformation completed
+2025-09-04 10:55:58,584 - INFO - Loaded 2 rows into MySQL
+2025-09-04 10:55:58,584 - INFO - ETL Job Completed Successfully
