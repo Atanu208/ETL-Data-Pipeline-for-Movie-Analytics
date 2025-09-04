@@ -54,7 +54,7 @@ Tools: Windows Task Scheduler (for automation)
 ⚡ How to Run
 
 Clone Repository
-git clone https://github.com/yourusername/etl-movie-pipeline.git
+[git clone https://github.com/yourusername/etl-movie-pipeline.git](https://github.com/Atanu208/ETL-Data-Pipeline-for-Movie-Analytics.git)
 cd etl-movie-pipeline
 
 Install Requirements
