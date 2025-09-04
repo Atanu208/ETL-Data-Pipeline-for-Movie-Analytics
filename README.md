@@ -95,7 +95,8 @@ FROM movies_data
 WHERE year > 2015;
 
 
-🔮 Future Improvements
+# 🔮 Future Improvements
+
 Add unit tests for data validation.
 Support multiple input sources (CSV, Excel, API).
 Create dashboards using Power BI or Tableau.
