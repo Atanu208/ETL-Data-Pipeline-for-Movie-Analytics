@@ -57,9 +57,11 @@ Clone Repository
 <img width="949" height="63" alt="image" src="https://github.com/user-attachments/assets/66ad54a2-16ef-47c2-9007-6bb5a8fcb752" />
 
 Install Requirements
+
 pip install pandas sqlalchemy mysql-connector-python
 
 Update Database Config
+
 Edit db_config.py with your MySQL credentials. Example:
 
 DB_USER = "root"
@@ -68,21 +70,25 @@ DB_HOST = "localhost"
 DB_NAME = "movies_db"
 
 Run ETL Script
+
 python etl_pipeline.py
 
 Verify in MySQL
+
 USE movies_db;
 SELECT * FROM movies_data LIMIT 5;
 
 📊 Example Queries
 
 Top 5 Movies by Rating
+
 SELECT name, score 
 FROM movies_data 
 ORDER BY score DESC 
 LIMIT 5;
 
 Movies Released After 2015
+
 SELECT name, year, score 
 FROM movies_data 
 WHERE year > 2015;
