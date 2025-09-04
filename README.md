@@ -55,9 +55,10 @@ Tools: Windows Task Scheduler (for automation)
 
 Clone Repository
 [git clone https://github.com/yourusername/etl-movie-pipeline.git](https://github.com/Atanu208/ETL-Data-Pipeline-for-Movie-Analytics.git)
+
 cd etl-movie-pipeline
 
-Install Requirements
+# Install Requirements
 
 pip install pandas sqlalchemy mysql-connector-python
 
